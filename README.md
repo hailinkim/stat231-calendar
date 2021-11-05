@@ -4,7 +4,9 @@
 
 In the beginning of this semester, I have been wondering how I could maximize my productivity (not just for studying, but more broadly, the activities I find meaningful) and what particular conditions enable me to spend more time on doing those meaningful activities. For the project, I intended to answer how the time I go to bed affects my studying time and how the time I wake up affect how I spend my time engaging in spiritual activities as well as studying. I also noticed the difference in my eating patterns from the previous semesters. As the College provided fridge and microwave per room due to the pandemic, I would end up cooking or more precisely, reheating the refrigerated foods and eating them in my room, instead of going to Val(the one-and-only dining hall of Amherst College) for meals. Thus, I planned to explore whether I spend more time when eating at Val or eating in my room.
 
-**Motivating Questions**
+---
+
+# Motivating Questions
 
 - How does sleep affect my productivity?
 - How do I spend time eating?
