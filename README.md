@@ -16,12 +16,12 @@ In the beginning of this semester, I have been wondering how I could maximize my
 
 I collected data by tracking my daily schedule in Google Calendar for 26 days. This is what one of my days I tracked woulld look like:
 
-![Image](https://github.com/hailinkim/stat231-calendar/calendar_project/images/google_calendar.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/google_calendar.jpg)
 
 To answer my questions above, I tracked my sleep, work time, spiritual activities (attending online service, listening to sermons and praying) and eating schedule. When I found out during the first phase of my data wrangling that the description feature of Google calendar could be used for my data analysis, I tried to make my entries(i.e. summary or title of an activity) general and simple for the sake of consistency and convenience of analysis and recorded different attributes in the description so I could conduct more meaningful analysis. For example, when describing what work I did, I wrote the class name in the description slot. For meals, I recorded the place I ate (Val or room) and whom I ate with (alone or friends), separated by semicolons.
 
-![Image](https://github.com/hailinkim/stat231-calendar/calendar_project/images/google_calendar2.png)
-![Image](https://github.com/hailinkim/stat231-calendar/calendar_project/images/google_calendar3.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/google_calendar2.PNG)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/google_calendar3.PNG)
 
 # Results
 
@@ -29,11 +29,11 @@ To answer my questions above, I tracked my sleep, work time, spiritual activitie
 
 First, I looked at the relationship between the time I wake up and the average amount of time I spend everyday studying and doing spiritual activities. I created a contingency table where each row corresponds to whether I wake up early (before 8:30 a.m.) or late (after 8:30 a.m.) and each column represents the type of activities. The table shows that there seems to be a clear association. On a day I wake up early, I spend on average 305.91 minutes studying, which is approximately 42 minutes more than when I wake up late. For spiritual activities, I spend around 26 minutes when I wake up early, which is more than twice as much compared to when I get up late. However, I cannot conclude from this visualization that I spend more time on those activities because rising early actually boosts my productivity, or simply because I have more time during the day to get work done.
 
-![Image](https://github.com/hailinkim/stat231-calendar/calendar_project/images/table.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/table.png)
 
 Looking at this table, I became interested if my bedtime would also be associated with my work time. I created a boxplot to show how the amount of time I spend studying varies with my bedtime. I considered going to bed before 1 a.m. early and after 1 a.m. late. The boxplot shows that variability of the amount of time is similar in terms of distribution, but the median time spent on studying is higher when I go to bed early than when I sleep late. While I would have more time to work when I sleep late, the actual (median) time I spent studying is less than when I wake up early. This suggests that bed time might be associated with my productivity.
 
-![Image](https://github.com/hailinkim/stat231-calendar/calendar_project/images/boxplot.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/boxplot.png)
 ---
 
 ## Question 2 How do I spend time eating?
@@ -44,18 +44,18 @@ I created a stacked barplot that depicts whether eating alone or with others aff
 
 I also wanted to explore the relationship between eating regular meals and my productivity, though not addressed in the initial questions of interest. Often when I skipped meals to get work done, I rather found myself snacking and binging in my room, only to feel bad and lose productivity. That being said, I expected that there would be a negative association between time gap between meals and productivity. However, the scatterplot shows that it is exactly the opposite. With the correlation coefficient of 0.34, they have a positive, albeit weak, relationship. Does this really mean I become more productive if I skip meals? While I tracked the duration of studying to measure productivity, it might not accurately represent that information because the time I was distracted was not excluded accurately. When I skipped meals (and fell into the vicious cycle of binge-eating), I might have had more time to study and actually ended up spending more time studying (possibly by reducing sleep) to compensate for the wasted time, but that would not necessarily mean I was feeling more productive.
 
-![Image](https://github.com/hailinkim/stat231_Calendar/blob/main/images/scatterplot.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/barplot.png)
 ---
 
 ## Question 3 Is the type of course related to the time I spend studying for it?
 
 This question is not included in my initial research questions, but as the semester progressed, I found myself spending disproportionately more time studying for my POSC course than the other two STEM courses(CS and Data Science). This led me to wonder if the the course type is actually associated with how I spend time studying. In order to investigate that relationship, I first created a line graph showing the amount of time I study each day for each course I am taking this semester. It shows that except for Thursday, I constantly invest my time in studying for POSC class throughout the week. That would be because being a slow reader, I split up the workload to finish 100-page readings assigned for every class. Thursdays are an exception because once I am done with the class on Wednesday, I choose to allocate my Thursdays to study for other courses. Though the graph shows that I also work on Data Science quite constantly throughout the week, I tend to spend more time working on the POSC each day. And for Data Science, I work the most on Fridays presumably because we have problem sets due every Friday. I seem to do the most work on Thursdays for CS because we have homeworks due Friday mornings. However, I see that I do not devote as much time to CS for the rest of the week.
 
-![Image](https://github.com/hailinkim/stat231_Calendar/blob/main/images/timeseries.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/timeseries.png)
 
 As mentioned above, I divide up the workload for my POSC class because I often find non-STEM courses more challenging than STEM courses. And I wanted to confirm if my data captures my anxiety about non-STEM courses. I looked at the distribution of the time I spent studying in one sitting by course types– STEM and non-STEM. Although there is more variation in study time for STEM courses, the median time is higher. On the contrary, the entire distribution of time spent studying for non-STEM courses lies at and even below the bottom end of the distribution for STEM classes. This validates that I tend to have poor concentration when I work on my POSC course.
 
-![Image](https://github.com/hailinkim/stat231_Calendar/blob/main/images/boxplot2.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/boxplot2.png)
 
 In general, sleep does affect my productivity in that waking up early and going to bed early seems to enables me to dedicate more time to the activities I find meaningful, in addition to my academics. While I expected that I would spend more time eating when I eat in my room than in Val because I need to cook and wash dishes, dining area does not seem to really matter according to the stacked barplot; instead, the average duration of having meals is much higher when I eat with others. Additionally, visualizations convey that my study time varies with which course I am working on. The line graph validates my feelings that the amount of time I spend on POSC course is disproportionate(because I split up the workload for the course throughout the week), and the boxplot confirms I tend to show poor concentration when I study for POSC, unable to work longer than 100 minutes in one sitting.
 ---
