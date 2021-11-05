@@ -14,14 +14,7 @@ In the beginning of this semester, I have been wondering how I could maximize my
 
 # Data Collection
 
-I collected data by tracking my daily schedule in Google Calendar for 26 days. This is what one of my days I tracked woulld look like:
-
-![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/google_calendar.jpg)
-
-To answer my questions above, I tracked my sleep, work time, spiritual activities (attending online service, listening to sermons and praying) and eating schedule. When I found out during the first phase of my data wrangling that the description feature of Google calendar could be used for my data analysis, I tried to make my entries(i.e. summary or title of an activity) general and simple for the sake of consistency and convenience of analysis and recorded different attributes in the description so I could conduct more meaningful analysis. For example, when describing what work I did, I wrote the class name in the description slot. For meals, I recorded the place I ate (Val or room) and whom I ate with (alone or friends), separated by semicolons.
-
-![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/google_calendar2.PNG)
-![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/google_calendar3.PNG)
+I collected data by tracking my daily schedule in Google Calendar for 26 days. To answer my questions above, I tracked my sleep, work time, spiritual activities (attending online service, listening to sermons and praying) and eating schedule. When I found out during the first phase of my data wrangling that the description feature of Google calendar could be used for my data analysis, I tried to make my entries(i.e. summary or title of an activity) general and simple for the sake of consistency and convenience of analysis and recorded different attributes in the description so I could conduct more meaningful analysis. For example, when describing what work I did, I wrote the class name in the description slot. For meals, I recorded the place I ate (Val or room) and whom I ate with (alone or friends), separated by semicolons.
 
 # Results
 
@@ -40,11 +33,11 @@ Looking at this table, I became interested if my bedtime would also be associate
 
 I created a stacked barplot that depicts whether eating alone or with others affects the amount of time I eat, and facetted it by the place I eat, to see if it has any effect on my eating time. It seems I spend so much more time–more than 200 minutes–eating with friends in my room, but, in fact, that is an outlier. I have only eaten twice with friends in my room when we cooked and watched movies together, both of which took us more than 2 hours. I also see that when I eat alone, I spend similar amount of time eating regardless of the dining area. However, more time is spent when I eat with friends both in Val and my room. This means that it is whom I eat with, not where I eat, that works as a factor that affects my eating time.
 
-![Image](https://github.com/hailinkim/stat231_Calendar/blob/main/images/barplot.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/barplot.png)
 
 I also wanted to explore the relationship between eating regular meals and my productivity, though not addressed in the initial questions of interest. Often when I skipped meals to get work done, I rather found myself snacking and binging in my room, only to feel bad and lose productivity. That being said, I expected that there would be a negative association between time gap between meals and productivity. However, the scatterplot shows that it is exactly the opposite. With the correlation coefficient of 0.34, they have a positive, albeit weak, relationship. Does this really mean I become more productive if I skip meals? While I tracked the duration of studying to measure productivity, it might not accurately represent that information because the time I was distracted was not excluded accurately. When I skipped meals (and fell into the vicious cycle of binge-eating), I might have had more time to study and actually ended up spending more time studying (possibly by reducing sleep) to compensate for the wasted time, but that would not necessarily mean I was feeling more productive.
 
-![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/barplot.png)
+![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/scatterplot.png)
 ---
 
 ## Question 3 Is the type of course related to the time I spend studying for it?
