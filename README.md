@@ -53,6 +53,7 @@ As mentioned above, I divide up the workload for my POSC class because I often f
 ![Image](https://github.com/hailinkim/stat231-calendar/blob/main/calendar_project/images/boxplot2.png)
 
 In general, sleep does affect my productivity in that waking up early and going to bed early seems to enables me to dedicate more time to the activities I find meaningful, in addition to my academics. While I expected that I would spend more time eating when I eat in my room than in Val because I need to cook and wash dishes, dining area does not seem to really matter according to the stacked barplot; instead, the average duration of having meals is much higher when I eat with others. Additionally, visualizations convey that my study time varies with which course I am working on. The line graph validates my feelings that the amount of time I spend on POSC course is disproportionate(because I split up the workload for the course throughout the week), and the boxplot confirms I tend to show poor concentration when I study for POSC, unable to work longer than 100 minutes in one sitting.
+
 ---
 
 # Reflection
